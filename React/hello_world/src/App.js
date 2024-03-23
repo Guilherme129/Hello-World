@@ -1,19 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import React from 'react';
-import gatinho from './gatinho.jpeg';
+import './App.css'
+import Hello from './Hello.gif'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={gatinho} alt="Gatinho Feliz" />
-        <p>
-          Hello World!
-        </p>
+        <img src={Hello} alt="Gatinho Feliz" />
+        <p>Hello World!</p>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
